@@ -1,0 +1,22 @@
+body {
+    background: black;
+}
+.article-grid {
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+}
+.card-content{
+    background: white;
+    color: black;
+}
+/* .col {
+    background-color: red;
+} */
+.nav-wrapper {
+    background-color: #A71930;
+}
+.card-content{
+    background-color: #A5ACAF;
+}
