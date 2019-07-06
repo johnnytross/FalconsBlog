@@ -20,3 +20,12 @@ body {
 .card-content{
     background-color: #A5ACAF;
 }
+.brand-logo img {
+    height: 63.5px;
+    width: auto;
+}
+@media (max-width: 600px) {
+    .brand-logo img {
+      height: 55.5px;
+    }
+  }
