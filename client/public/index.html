@@ -1,38 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/FalconsBlog/public/styles/styles.css">
+    <title>Falcon's Fan Blog</title>
+</head>
+<body>
+  <!-- <ul id="schedule" class="dropdown-content">
+    <li><a href="#!">2018</a></li>
+      
+    <li><a href="#!">2017</a></li>
+       
+    <li><a href="#!">2016</a></li>
+  </ul> -->
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"><img src="/FalconsBlog/public/images/falconsLogo.jpg" alt="Falcons Logo" ></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="index.html">Home</a></li>
+            <!-- <li><a href="badges.html">Schedule</a></li> -->
+            <!-- Dropdown Trigger --><!-- Dropdown Trigger -->
+                <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop Me!</a>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+            <!-- Dropdown Structure -->
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+          <!-- </ul>
+            <li><a href="#!">Stats</a></li>
+            <li><a href="#!">About</a></li>
+          </ul> -->
+        </div>
+      </nav>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<div class="article-grid">
+      <div class="row">
+        <div class="col m8 offset-m2">
+          <div class="card">
+            <div class="card-image">
+              <img src="/FalconsBlog/public/images/julioJetJones.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <h5>Julio Jones makes the case for being the best WR in the NFL</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="row">
+    <div class="col m2 offset-m2">
+      <div class="card">
+        <div class="card-image">
+          <img src="/FalconsBlog/public/images/mattyIce.jpg">
+          <span class="card-title"></span>
+        </div>
+        <div class="card-content">
+            <p>Matt Ryan is 11th all time in yards</p>
+        </div>
+      </div>
+    </div>
+    <div class="col m2">
+        <div class="card">
+          <div class="card-image">
+            <img src="/FalconsBlog/public/images/arthurBlank.jpg">
+            <span class="card-title"></span>
+          </div>
+          <div class="card-content">
+              <p>Falcons must make a deep playoff run</p>
+          </div>
+        </div>
+      </div>
+      <div class="col m2">
+          <div class="card">
+            <div class="card-image">
+              <img src="/FalconsBlog/public/images/devontaFreeman.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+                <p>Devonta Freeman will lead a RB by committee</p>
+            </div>
+          </div>
+        </div>
+        <div class="col m2">
+            <div class="card">
+              <div class="card-image">
+                <img src="/FalconsBlog/public/images/Grady-Jarrett.jpg">
+                <span class="card-title"></span>
+              </div>
+              <div class="card-content">
+                  <p>Grady Jarrett was a top 5 DT in the NFL last season</p>
+              </div>
+            </div>
+          </div>
+  </div>
+</div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+      
+    <!-- Compiled and minified JavaScript -->
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="crossorigin="anonymous"></script>
+    <script src="/public/js/index.js"></script>
+</body>
 </html>
